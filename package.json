@@ -13,7 +13,7 @@
     "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
     "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
     "devsafe": "rm -rf .next && cross-env NODE_OPTIONS=--no-deprecation next dev",
-    "ci": "npm install"
+    "ci": "pnpm build"
   },
   "dependencies": {
     "@payloadcms/db-mongodb": "3.40.0",
